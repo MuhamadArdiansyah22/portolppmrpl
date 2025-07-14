@@ -147,7 +147,7 @@ $(document).ready(() => {
                 portfolioView({
                     namePlate: card.querySelector(".title").textContent,
                     category: "Web Development",
-                    project_brief: `Pembuatan Website sekolah`,
+                    project_brief: `Project Pembuatan Website Jurusan RPL`,
 
                     project_date: "2024",
                     project_client: "SMK LPPM RI",
@@ -174,29 +174,27 @@ $(document).ready(() => {
                     .toLowerCase();
                 portfolioView({
                     namePlate: card.querySelector(".title").textContent,
-                    category: "Logo Designing",
+                    category: "Game Dev",
                     project_brief: `Lorem ipsum, dolor sit amet consectetur
                                     adipisicing elit. At corrupti modi perferendis
                                     iure corporis dolores minus asperiores nemo
                                     debitis veritatis id placeat, similique eum
                                     recusandae ipsa quia cum earum nam?`,
 
-                    project_date: "2019",
+                    project_date: "2024",
                     project_client: `${
                         card.querySelector(".title").textContent
                     } Corporation`,
                     project_link: `www.${website}.com`,
 
                     image: [
-                        "resources/img/portfolios/logo/1.jpg",
-                        "resources/img/portfolios/logo/2.jpg",
-                        "resources/img/portfolios/logo/3.jpg",
-                        "resources/img/portfolios/logo/4.jpg",
-                        "resources/img/portfolios/logo/5.jpg",
-                        "resources/img/portfolios/logo/6.jpg",
-                        "resources/img/portfolios/logo/7.jpg",
-                        "resources/img/logo_design.jpg",
-                        "resources/img/logo_design.jpg",
+                        "resources/img/portfolios/logo/6.png",
+                        "resources/img/portfolios/logo/8.png",
+                        "resources/img/portfolios/logo/9.png",
+                        "resources/img/portfolios/logo/11.png",
+                        "resources/img/portfolios/logo/6.png",
+                        "resources/img/portfolios/logo/8.png",
+                        "resources/img/portfolios/logo/9.png",
                     ],
                 });
             } else if (card.classList.contains("card")) {
@@ -215,7 +213,7 @@ $(document).ready(() => {
                                     debitis veritatis id placeat, similique eum
                                     recusandae ipsa quia cum earum nam?`,
 
-                    project_date: "2019",
+                    project_date: "2024",
                     project_client: `${
                         card.querySelector(".title").textContent
                     } Corporation`,
@@ -242,29 +240,23 @@ $(document).ready(() => {
                     .toLowerCase();
                 portfolioView({
                     namePlate: card.querySelector(".title").textContent,
-                    category: "Icon Designing",
+                    category: "Kegiatan Jurusan RPL",
                     project_brief: `Lorem ipsum, dolor sit amet consectetur
                                     adipisicing elit. At corrupti modi perferendis
                                     iure corporis dolores minus asperiores nemo
                                     debitis veritatis id placeat, similique eum
                                     recusandae ipsa quia cum earum nam?`,
 
-                    project_date: "2019",
+                    project_date: "2024",
                     project_client: `${
                         card.querySelector(".title").textContent
                     } Corporation`,
                     project_link: `www.${website}.com`,
 
                     image: [
-                        "resources/img/portfolios/icon/1.jpg",
-                        "resources/img/portfolios/icon/2.jpg",
-                        "resources/img/portfolios/icon/3.jpg",
-                        "resources/img/portfolios/icon/4.jpg",
-                        "resources/img/portfolios/icon/5.jpg",
-                        "resources/img/icon_design.png",
-                        "resources/img/icon_design.png",
-                        "resources/img/icon_design.png",
-                        "resources/img/icon_design.png",
+                        "resources/img/portfolios/icon/Kegiatan1.png",
+                        "resources/img/portfolios/icon/Kegiatan2.png",
+                        "resources/img/portfolios/icon/Kegiatan3.png",
                     ],
                 });
             } else if (card.classList.contains("app")) {
@@ -276,29 +268,23 @@ $(document).ready(() => {
                     .toLowerCase();
                 portfolioView({
                     namePlate: card.querySelector(".title").textContent,
-                    category: "UI/UX Designing",
+                    category: "App Desktop",
                     project_brief: `Lorem ipsum, dolor sit amet consectetur
                                     adipisicing elit. At corrupti modi perferendis
                                     iure corporis dolores minus asperiores nemo
                                     debitis veritatis id placeat, similique eum
                                     recusandae ipsa quia cum earum nam?`,
 
-                    project_date: "2019",
+                    project_date: "2024",
                     project_client: `${
                         card.querySelector(".title").textContent
                     } Corporation`,
                     project_link: `www.${website}.com`,
 
                     image: [
-                        "resources/img/portfolios/app/1.jpg",
-                        "resources/img/portfolios/app/2.jpg",
-                        "resources/img/portfolios/app/3.jpg",
-                        "resources/img/ui_design.jpg",
-                        "resources/img/ui_design.jpg",
-                        "resources/img/ui_design.jpg",
-                        "resources/img/ui_design.jpg",
-                        "resources/img/ui_design.jpg",
-                        "resources/img/ui_design.jpg",
+                        "resources/img/portfolios/app/4.png",
+                        "resources/img/portfolios/app/5.png",
+                        "resources/img/portfolios/app/6.png",
                     ],
                 });
             }
